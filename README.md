@@ -11,14 +11,14 @@ Pie diagramy doporučuji sloučit do jenoho algoritmu. Výsledkem by tedy měly 
 
 ## Soubory s algoritmy
 ```
-.
+nfsen folder
 ├── etc
-│   └── nfsen.conf
-├── plugins
-│   └── R
-│       ├── default.r
-│       ├── histogram.r
-│       └── pie.r
+│   └── nfsen.conf
+└── plugins
+    └── R
+        ├── default.r
+        ├── histogram.r
+        └── pie.r
 ```
 
 ## Spuštění
