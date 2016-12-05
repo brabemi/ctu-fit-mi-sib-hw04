@@ -9,16 +9,17 @@ Naprogramujte R algoritmy v pluginu NfSen2R pro zobrazení následujících graf
 
 Pie diagramy doporučuji sloučit do jenoho algoritmu. Výsledkem by tedy měly být dva algoritmy: Jeden pro histogram a empirickou CDF, a druhý pro oba pie diagramy.
 
-## Soubory s algoritmy
+## Soubory algoritmy
 ```
-nfsen folder
+.
+nfsen_root_folder
 ├── etc
 │   └── nfsen.conf
 └── plugins
     └── R
-        ├── default.r
-        ├── histogram.r
-        └── pie.r
+        ├── default.r
+        ├── histogram.r
+        └── pie.r
 ```
 
 ## Spuštění
@@ -26,4 +27,5 @@ nfsen folder
 1. zapnutí nfsen daemona: /data/nfsen/bin/nfsen start
 2. vstup do aplikace: http://monitor/nfsen/nfsen.php
 3. výběr neprázdného časového okna: např. 201212050000 - 201212062359
-4. nastavit breaks (počet sloupečků histogramu) nebo threshold (počet packetů <= threshold  -> port = other) 
+4. nastavit breaks (počet sloupečků histogramu) nebo threshold (počet packetů <= threshold  -> port = other)  
+ - threshold = 1 -> četností 1 označte souhrnně jako „Other“, = 5 -> četností 5 nebo nižší označte souhrnně jako „Other“
