@@ -17,8 +17,9 @@ nfsen_root_folder
 │   └── nfsen.conf
 └── plugins
     └── R
-        ├── default.r
+        ├── histogram_data_prep.r
         ├── histogram.r
+        ├── pie_data_prep.r
         └── pie.r
 ```
 
